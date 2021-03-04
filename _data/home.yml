@@ -7,7 +7,7 @@ navbar_entries:
 
 project_entries:
   - title: AWX on CentOS
-    url: overview-post
+    url: awx-on-centos
     desc: In this post I'll be going over running AWX on CentOS 8.
 
   - title: AWX VMWare Inventory

@@ -1,9 +1,3 @@
----
-layout: home
-title: GlitchV0
----
-
-
 In this post I’m going to over getting a local AWX instance going on CentOS 8.  AWX is the open source version of Ansible Tower and it is a web interface/API interface.  AWX allows you to use things like HashiCorp Vault for credentials (which I’ve covered).
 
 Don't worry, this will be super easy, barely an inconvenience.

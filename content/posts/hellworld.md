@@ -1,8 +1,8 @@
 +++ 
-draft = true
+draft = false
 date = 2021-08-07T23:55:22-05:00
-title = ""
-description = ""
+title = "test"
+description = "test"
 slug = ""
 authors = []
 tags = []

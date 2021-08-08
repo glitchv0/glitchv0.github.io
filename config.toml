@@ -15,7 +15,7 @@ pygmentscodefencesguesssyntax = true
   author = "Jeremy Elam"
   info = "Devops for everybody."
   description = "GlitchV0"
-  keywords = "blog,developer,personal"
+  keywords = "blog,cloud,devops,automation,terraform"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 

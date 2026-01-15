@@ -1,1 +1,81 @@
-I'm going to be redoing my site on github pages soon.  AWS got expensive.  Finding a theme is hard btw.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raid Reports</title>
+    <style>
+        :root {
+            --wow-gold: #ffd100;
+            --wow-gold-dark: #b8860b;
+            --wow-bg-dark: #0d0d0d;
+            --wow-bg-card: #1a1a1a;
+            --wow-border: #3d3d3d;
+            --wow-text: #c0c0c0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--wow-bg-dark);
+            color: var(--wow-text);
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: var(--wow-gold);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: var(--wow-text);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .redirect-btn {
+            display: inline-block;
+            background: linear-gradient(180deg, var(--wow-gold) 0%, var(--wow-gold-dark) 100%);
+            color: #000;
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding: 1.25rem 3rem;
+            border-radius: 8px;
+            text-decoration: none;
+            border: 2px solid var(--wow-gold);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+
+        .redirect-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 209, 0, 0.4);
+        }
+
+        .redirect-btn:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Raid Reports</h1>
+        <p>Performance analysis for Throne of Thunder raids</p>
+        <a href="https://glitchv0.com/raidreview/" class="redirect-btn">View Raid Reports</a>
+    </div>
+</body>
+</html>
